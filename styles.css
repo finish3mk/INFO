@@ -38,32 +38,30 @@ header p {
     color: #666;
 }
 
-.social-media {
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     margin-top: 20px;
 }
 
-.social-icon {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px 15px;
+.card {
+    background: #e7e7e7;
     border-radius: 5px;
-    color: white;
-    text-decoration: none;
+    padding: 15px;
     transition: background-color 0.3s, transform 0.3s;
 }
 
-.social-icon:hover {
-    transform: translateY(-3px);
+.card:hover {
+    background-color: #d1d1d1;
+    transform: translateY(-5px);
 }
 
-.twitter {
-    background-color: #1DA1F2;
+.card h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
 }
 
-.instagram {
-    background-color: #C13584;
-}
-
-.facebook {
-    background-color: #3b5998;
+.card p {
+    font-size: 16px;
 }
